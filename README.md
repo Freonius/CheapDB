@@ -1,7 +1,7 @@
 CheapDB
 =======
 
-####A basic, unsecure, JSON database from PHP and JavaScript
+#### A basic, unsecure, JSON database from PHP and JavaScript
 
 This is a very basic JSON creator to use if you don't have access to a "real" database.
 Of course you can't store sensitive data since it will be visible to anyone accessing the JSON file, but in some cases there is no sensitive data.
@@ -10,7 +10,7 @@ Being already in JSON it can interact perfectly with JavaScript.
 
 While the additions or changes to the JSON object require PHP, the selection can be made entirely in JavaScript.
 
-###Usage in PHP:
+### Usage in PHP:
 
     $db=new CheapDB("songs", array("song","artist"),"../_json/",true);
     $result=$db->get();
@@ -66,7 +66,7 @@ To add the json file to the html use:
 which returns the name of the file with script tags.
 
 
-###In JavaScript:
+### In JavaScript:
 
 First create a new instance of CheapDB.
 
